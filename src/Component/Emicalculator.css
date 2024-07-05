@@ -1,0 +1,64 @@
+.emi-calculator {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emi-calculator h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .emi-calculator label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .emi-calculator input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .emi-calculator button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .emi-calculator button:hover {
+    background-color: #0056b3;
+  }
+  
+  .emi-calculator .emi-result {
+    margin-top: 20px;
+  }
+  
+  .emi-calculator .emi-result h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .emi-calculator #loan-amount {
+    width: 700px;
+    color: black;
+  }
+  .emi-calculator #intrest-rate {
+    width: 700px;
+    margin-right: 40px;
+  }
+  #principal{
+    margin-left: 20px;
+  }
+  .tenure{
+    width: 100px;
+  }

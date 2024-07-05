@@ -1,0 +1,27 @@
+.card-container{
+    float: left;
+    width: 100%;
+    /* margin: 10%; */
+}
+.card{
+    height: 300px;
+    width: auto;
+    min-width: 300PX;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px #ccc;
+    float: left;
+
+}
+.card > .card-img{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card > .card-img > img{
+    max-width: 100%;
+}
